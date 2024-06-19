@@ -1,0 +1,21 @@
+/* Basic styling for readability */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+#app {
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#error-message {
+  color: red;
+}

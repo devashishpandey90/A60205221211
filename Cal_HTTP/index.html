@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Average Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Average Calculator</h1>
+    <select id="number-type">
+      <option value="p">Prime</option>
+      <option value="f">Fibonacci</option>
+      <option value="e">Even</option>
+      <option value="r">Random</option>
+    </select>
+    <button id="get-average">Get Average</button>
+    <div id="result">
+      <p>Previous Window: <span id="prev-window"></span></p>
+      <p>Current Window: <span id="curr-window"></span></p>
+      <p>Latest Number: <span id="latest-number"></span></p>
+      <p>Average: <span id="average"></span></p>
+    </div>
+    <p id="error-message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
